@@ -31,9 +31,9 @@ from samcli.local.common.runtime_template import (
 LOG = logging.getLogger(__name__)
 APP_TEMPLATES_REPO_COMMIT = configuration.get_app_template_repo_commit()
 MANIFEST_URL = (
-    f"https://raw.githubusercontent.com/aws/aws-sam-cli-app-templates/{APP_TEMPLATES_REPO_COMMIT}/manifest-v2.json"
+    f"https://github.com/rezvanf/aws-sam-cli-app-templates/manifest-v2.json"
 )
-APP_TEMPLATES_REPO_URL = "https://github.com/aws/aws-sam-cli-app-templates"
+APP_TEMPLATES_REPO_URL = "https://github.com/rezvanf/aws-sam-cli-app-templates"
 APP_TEMPLATES_REPO_NAME = "aws-sam-cli-app-templates"
 
 
